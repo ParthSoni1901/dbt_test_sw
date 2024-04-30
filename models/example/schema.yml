@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: SQLTEST
+    description: "FOR TEST"
+    columns:
+      - name: EVENT_DATE
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+

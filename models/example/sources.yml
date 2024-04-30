@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DW
+    database: BELLA_AND_DUKE 
+    schema: DW  
+    tables:
+      - name: GA_4_DAILY_EVENTS
+        identifier: GA_4_DAILY_EVENTS
